@@ -7,12 +7,12 @@ const LiquidityPoolCreationFee = () => {
     <div>
       <h2>Liquidity Pool Creation fee</h2>
       <p>
-        A liquidity pool creation fee is a fee that is charged by the users when they create a liquidity pool of two asset pairs which is unique and does not exist on the dex yet. This fee is charged in the CMDX token, which is the native token of Comdex. Initially, this pool creation will be 200 CMDX, but it can be changed through governance in the future.
+        Liquidity pool creation fees are charged when users create liquidity pools of an asset pairs that don't already exist on the DEX. The fee is charged in CMDX and set to be at 2000 CMDX at genesis. The liquidity pool creation fee can be modified through governance.
       </p>
 
       <BottomNav
-        preNavLink="paircreation-fees"
-        prevNavText="Pair Creation fee"
+        preNavLink="swap-fees"
+        prevNavText="Swap Fees"
         nextNavLink="withdrawal-fees"
         nextNavText="Withdrawal Fees"
       />

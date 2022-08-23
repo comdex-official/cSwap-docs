@@ -13,8 +13,8 @@ const Swapfees = () => {
       <BottomNav
         preNavLink="transaction-fees"
         prevNavText="Transaction Fees"
-        nextNavLink="paircreation-fees"
-        nextNavText="Pair Creation fee"
+        nextNavLink="liquiditypool-creation-fee"
+        nextNavText="Liquidity Pool Creation fee"
       />
 
     </div>
