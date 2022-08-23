@@ -22,49 +22,71 @@ const SideBar = () => {
                 Introduction
               </NavLink>
             </Menu.Item>
-            <Menu.SubMenu key="m2" title="cSwap Dex" icon={<SvgIcon name="protocol-icon" viewbox="0 0 36 31.5" />}>
-              <Menu.SubMenu key="m2-1" title="Mechanism" icon={<SvgIcon name="protocol-icon" viewbox="0 0 36 31.5" />}>
-                <Menu.Item key="m2-1-1" icon={<SvgIcon name="polygon-icon" viewbox="0 0 16.389 14.75" />}>
-                  <NavLink
-                    to="/mechanism"
-                    className={location.pathname === "/mechanism" ? "selected" : ""}
-                  >
-                    Mechanism
-                  </NavLink>
-                </Menu.Item>
-                <Menu.Item key="m2-1-2" icon={<SvgIcon name="polygon-icon" viewbox="0 0 16.389 14.75" />}>
-                  <NavLink
-                    to="/orderbook"
-                    className={location.pathname === "/orderbook" ? "selected" : ""}
-                  >
-                    Orderbook
-                  </NavLink>
-                </Menu.Item>
-                <Menu.Item key="m2-1-3" icon={<SvgIcon name="polygon-icon" viewbox="0 0 16.389 14.75" />}>
-                  <NavLink
-                    to="/hybrid-dex"
-                    className={location.pathname === "/hybrid-dex" ? "selected" : ""}
-                  >
-                    Hybrid Dex
-                  </NavLink>
-                </Menu.Item>
-                <Menu.Item key="m2-1-4" icon={<SvgIcon name="polygon-icon" viewbox="0 0 16.389 14.75" />}>
-                  <NavLink
-                    to="/liquidity-pool"
-                    className={location.pathname === "/liquidity-pool" ? "selected" : ""}
-                  >
-                    Liquidity Pool
-                  </NavLink>
-                </Menu.Item>
-                <Menu.Item key="m2-1-5" icon={<SvgIcon name="polygon-icon" viewbox="0 0 16.389 14.75" />}>
-                  <NavLink
-                    to="/farming-rewards"
-                    className={location.pathname === "/farming-rewards" ? "selected" : ""}
-                  >
-                    Farming Rewards
-                  </NavLink>
-                </Menu.Item>
-              </Menu.SubMenu>
+            <Menu.SubMenu key="m2" title="What is cSwap DEX?" icon={<SvgIcon name="protocol-icon" viewbox="0 0 36 31.5" />}>
+              <Menu.Item key="m2-1" icon={<SvgIcon name="polygon-icon" viewbox="0 0 16.389 14.75" />}>
+                <NavLink
+                  to="/cswap-dex"
+                  className={location.pathname === "/cswap-dex" ? "selected" : ""}
+                >
+                  What is cSwap DEX?
+                </NavLink>
+              </Menu.Item>
+              <Menu.Item key="m2-2" icon={<SvgIcon name="polygon-icon" viewbox="0 0 16.389 14.75" />}>
+                <NavLink
+                  to="/orderbook"
+                  className={location.pathname === "/orderbook" ? "selected" : ""}
+                >
+                  Orderbook
+                </NavLink>
+              </Menu.Item>
+              <Menu.Item key="m2-3" icon={<SvgIcon name="polygon-icon" viewbox="0 0 16.389 14.75" />}>
+                <NavLink
+                  to="/liquidity-pools"
+                  className={location.pathname === "/liquidity-pools" ? "selected" : ""}
+                >
+                  Liquidity Pools
+                </NavLink>
+              </Menu.Item>
+              <Menu.Item key="m2-4" icon={<SvgIcon name="polygon-icon" viewbox="0 0 16.389 14.75" />}>
+                <NavLink
+                  to="/amm"
+                  className={location.pathname === "/amm" ? "selected" : ""}
+                >
+                  AMM (Automated Market Maker)
+                </NavLink>
+              </Menu.Item>
+              <Menu.Item key="m2-5" icon={<SvgIcon name="polygon-icon" viewbox="0 0 16.389 14.75" />}>
+                <NavLink
+                  to="/hybrid-dex"
+                  className={location.pathname === "/hybrid-dex" ? "selected" : ""}
+                >
+                  Hybrid Dex
+                </NavLink>
+              </Menu.Item>
+              <Menu.Item key="m2-6" icon={<SvgIcon name="polygon-icon" viewbox="0 0 16.389 14.75" />}>
+                <NavLink
+                  to="/farming-rewards"
+                  className={location.pathname === "/farming-rewards" ? "selected" : ""}
+                >
+                  Farming Rewards
+                </NavLink>
+              </Menu.Item>
+              <Menu.Item key="m2-7" icon={<SvgIcon name="polygon-icon" viewbox="0 0 16.389 14.75" />}>
+                <NavLink
+                  to="/impermanent-loss"
+                  className={location.pathname === "/impermanent-loss" ? "selected" : ""}
+                >
+                  Impermanent Loss
+                </NavLink>
+              </Menu.Item>
+              <Menu.Item key="m2-8" icon={<SvgIcon name="polygon-icon" viewbox="0 0 16.389 14.75" />}>
+                <NavLink
+                  to="/mechanism"
+                  className={location.pathname === "/mechanism" ? "selected" : ""}
+                >
+                  Mechanism
+                </NavLink>
+              </Menu.Item>
             </Menu.SubMenu>
             <Menu.SubMenu key="m3" title="Governance" icon={<SvgIcon name="governance-icon" viewbox="0 0 32.076 28.288" />}>
               <Menu.Item key="m3-1-1" icon={<SvgIcon name="voting" viewbox="0 0 30 22.222" />}>
@@ -91,14 +113,6 @@ const SideBar = () => {
                   className={location.pathname === "/swap-fees" ? "selected" : ""}
                 >
                   Swap fees
-                </NavLink>
-              </Menu.Item>
-              <Menu.Item key="m4-3" icon={<SvgIcon name="polygon-icon" viewbox="0 0 16.389 14.75" />}>
-                <NavLink
-                  to="/paircreation-fees"
-                  className={location.pathname === "/paircreation-fees" ? "selected" : ""}
-                >
-                  Pair Creation Fee
                 </NavLink>
               </Menu.Item>
               <Menu.Item key="m4-4" icon={<SvgIcon name="polygon-icon" viewbox="0 0 16.389 14.75" />}>

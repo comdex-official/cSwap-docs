@@ -7,7 +7,7 @@ const WithdrawalFees = () => {
     <div>
       <h2>Withdrawal Fees</h2>
       <p>
-        A withdrawal fee is a fee that is charged by the users when they withdraw their farmed assets from the liquidity pool, which includes both the master pool and child pools. A small percentage of the farmed assets will be deducted each time a user withdraws from the pool. This withdrawal fee can be changed through governance in the future.
+        A withdrawal fee is charged upon withdrawal of  farmed assets from a liquidity pool. The withdrawal fee is charged as a percentage of the value of the farmed assets withdrawn and deducted at the time of withdrawal. The withdrawal fee can be modified through governance.
       </p>
 
       <BottomNav

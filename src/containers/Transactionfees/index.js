@@ -7,7 +7,7 @@ const Transactionfees = () => {
     <div>
       <h2>Transaction Fees</h2>
       <p>
-        Every user must pay a transaction fee to initiate a transaction on a chain. In cSwap, the transaction fee is charged in CMDX, which is then distributed as a reward to CMDX stakers. 
+        Every user must pay a transaction fee to initiate a transaction on a chain. In cSwap, the transaction fee is charged in CMDX, which is then distributed as a reward to CMDX stakers.
       </p>
 
       <BottomNav

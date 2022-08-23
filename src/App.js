@@ -24,9 +24,11 @@ import FarmingRewards from "./containers/FarmingRewards";
 import Voting from "./containers/Voting";
 import Transactionfees from "./containers/Transactionfees";
 import Swapfees from "./containers/Swapfees";
-import PairCreationFee from "./containers/PairCreationFee";
 import LiquidityPoolCreationFee from "./containers/LiquidityPoolCreationFee";
 import WithdrawalFees from "./containers/WithdrawalFees";
+import WhatcSwap from "./containers/WhatcSwap";
+import AutomatedMarketMaker from "./containers/AutomatedMarketMaker";
+import ImpermanentLoss from "./containers/ImpermanentLoss";
 
 const { Header, Content, Sider, Footer } = Layout;
 
@@ -82,15 +84,17 @@ const App = () => {
 								<Switch>
 									<Route exact path="/" component={Home} />
 									<Route exact path="/introduction" component={Introduction} />
+									<Route exact path="/cswap-dex" component={WhatcSwap} />
 									<Route exact path="/mechanism" component={Mechanism} />
+									<Route exact path="/amm" component={AutomatedMarketMaker} />
 									<Route exact path="/orderbook" component={Orderbook} />
 									<Route exact path="/hybrid-dex" component={HybridDex} />
-									<Route exact path="/liquidity-pool" component={LiquidityPool} />
+									<Route exact path="/liquidity-pools" component={LiquidityPool} />
 									<Route exact path="/farming-rewards" component={FarmingRewards} />
+									<Route exact path="/impermanent-loss" component={ImpermanentLoss} />
 									<Route exact path="/voting" component={Voting} />
 									<Route exact path="/transaction-fees" component={Transactionfees} />
 									<Route exact path="/swap-fees" component={Swapfees} />
-									<Route exact path="/paircreation-fees" component={PairCreationFee} />
 									<Route exact path="/liquiditypool-creation-fee" component={LiquidityPoolCreationFee} />
 									<Route exact path="/withdrawal-fees" component={WithdrawalFees} />
 									<Route path="/faq" component={Faq} />
