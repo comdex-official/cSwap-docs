@@ -27,6 +27,11 @@ import AutomatedMarketMaker from "./containers/AutomatedMarketMaker";
 import ImpermanentLoss from "./containers/ImpermanentLoss";
 import LiquidityFarming from "./containers/LiquidityFarming";
 import Fees from "./containers/Fees";
+import TradeSwap from "./containers/TradeSwap";
+import SubmitLimitOrder from "./containers/SubmitLimitOrder";
+import HowCancelLimitOrder from "./containers/HowCancelLimitOrder";
+import HowAddLiquidity from "./containers/HowAddLiquidity";
+import Governance from "./containers/Governance";
 
 const { Header, Content, Sider, Footer } = Layout;
 
@@ -93,6 +98,11 @@ const App = () => {
 									<Route exact path="/impermanent-loss" component={ImpermanentLoss} />
 									<Route exact path="/voting" component={Voting} />
 									<Route exact path="/fees" component={Fees} />
+									<Route exact path="/trade-swap" component={TradeSwap} />
+									<Route exact path="/submit-limit-order" component={SubmitLimitOrder} />
+									<Route exact path="/cancel-limit-order" component={HowCancelLimitOrder} />
+									<Route exact path="/add-liquidity" component={HowAddLiquidity} />
+									<Route exact path="/governance" component={Governance} />
 									<Route path="/faq" component={Faq} />
 								</Switch>
 								<Footer className="main-footer">

@@ -122,6 +122,48 @@ const SideBar = () => {
                 FAQs
               </NavLink>
             </Menu.Item>
+            <Menu.SubMenu key="m6" title="How to use cSwap" icon={<SvgIcon name="governance-icon" viewbox="0 0 32.076 28.288" />}>
+              <Menu.Item key="m6-1-1" icon={<SvgIcon name="polygon-icon" viewbox="0 0 16.389 14.75" />}>
+                <NavLink
+                  to="/trade-swap"
+                  className={location.pathname === "/trade-swap" ? "selected" : ""}
+                >
+                  Steps to trade/swap
+                </NavLink>
+              </Menu.Item>
+              <Menu.Item key="m6-1-1" icon={<SvgIcon name="polygon-icon" viewbox="0 0 16.389 14.75" />}>
+                <NavLink
+                  to="/submit-limit-order"
+                  className={location.pathname === "/submit-limit-order" ? "selected" : ""}
+                >
+                  How to Submit a Limit Order
+                </NavLink>
+              </Menu.Item>
+              <Menu.Item key="m6-1-1" icon={<SvgIcon name="polygon-icon" viewbox="0 0 16.389 14.75" />}>
+                <NavLink
+                  to="/cancel-limit-order"
+                  className={location.pathname === "/cancel-limit-order" ? "selected" : ""}
+                >
+                  How to Cancel a Limit Order
+                </NavLink>
+              </Menu.Item>
+              <Menu.Item key="m6-1-1" icon={<SvgIcon name="polygon-icon" viewbox="0 0 16.389 14.75" />}>
+                <NavLink
+                  to="/add-liquidity"
+                  className={location.pathname === "/add-liquidity" ? "selected" : ""}
+                >
+                  How to Add Liquidity
+                </NavLink>
+              </Menu.Item>
+              <Menu.Item key="m6-1-1" icon={<SvgIcon name="polygon-icon" viewbox="0 0 16.389 14.75" />}>
+                <NavLink
+                  to="/governance"
+                  className={location.pathname === "/governance" ? "selected" : ""}
+                >
+                  Governance
+                </NavLink>
+              </Menu.Item>
+            </Menu.SubMenu>
           </Menu>
           <div className="social-footer">
             <Link to={{ pathname: "https://twitter.com/cSwap_Finance" }} target="_blank">
