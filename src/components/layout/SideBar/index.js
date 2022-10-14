@@ -63,7 +63,7 @@ const SideBar = () => {
                   Liquidity Farming
                 </NavLink>
               </Menu.Item>
-              <Menu.Item key="m2-5" icon={<SvgIcon name="polygon-icon" viewbox="0 0 16.389 14.75" />}>
+              <Menu.Item key="m2-6" icon={<SvgIcon name="polygon-icon" viewbox="0 0 16.389 14.75" />}>
                 <NavLink
                   to="/hybrid-dex"
                   className={location.pathname === "/hybrid-dex" ? "selected" : ""}
@@ -71,7 +71,7 @@ const SideBar = () => {
                   Hybrid Dex
                 </NavLink>
               </Menu.Item>
-              <Menu.Item key="m2-6" icon={<SvgIcon name="polygon-icon" viewbox="0 0 16.389 14.75" />}>
+              <Menu.Item key="m2-7" icon={<SvgIcon name="polygon-icon" viewbox="0 0 16.389 14.75" />}>
                 <NavLink
                   to="/farming-rewards"
                   className={location.pathname === "/farming-rewards" ? "selected" : ""}
@@ -79,7 +79,7 @@ const SideBar = () => {
                   Farming Rewards
                 </NavLink>
               </Menu.Item>
-              <Menu.Item key="m2-7" icon={<SvgIcon name="polygon-icon" viewbox="0 0 16.389 14.75" />}>
+              <Menu.Item key="m2-8" icon={<SvgIcon name="polygon-icon" viewbox="0 0 16.389 14.75" />}>
                 <NavLink
                   to="/impermanent-loss"
                   className={location.pathname === "/impermanent-loss" ? "selected" : ""}
@@ -87,7 +87,7 @@ const SideBar = () => {
                   Impermanent Loss
                 </NavLink>
               </Menu.Item>
-              <Menu.Item key="m2-8" icon={<SvgIcon name="polygon-icon" viewbox="0 0 16.389 14.75" />}>
+              <Menu.Item key="m2-9" icon={<SvgIcon name="polygon-icon" viewbox="0 0 16.389 14.75" />}>
                 <NavLink
                   to="/mechanism"
                   className={location.pathname === "/mechanism" ? "selected" : ""}
@@ -123,7 +123,7 @@ const SideBar = () => {
               </NavLink>
             </Menu.Item>
             <Menu.SubMenu key="m6" title="How to use cSwap" icon={<SvgIcon name="using-icon" viewbox="0 0 3.143 5.189" />}>
-              <Menu.Item key="m6-1-1" icon={<SvgIcon name="polygon-icon" viewbox="0 0 16.389 14.75" />}>
+              <Menu.Item key="m6-1" icon={<SvgIcon name="polygon-icon" viewbox="0 0 16.389 14.75" />}>
                 <NavLink
                   to="/trade-swap"
                   className={location.pathname === "/trade-swap" ? "selected" : ""}
@@ -131,7 +131,7 @@ const SideBar = () => {
                   Steps to trade/swap
                 </NavLink>
               </Menu.Item>
-              <Menu.Item key="m6-1-1" icon={<SvgIcon name="polygon-icon" viewbox="0 0 16.389 14.75" />}>
+              <Menu.Item key="m6-2" icon={<SvgIcon name="polygon-icon" viewbox="0 0 16.389 14.75" />}>
                 <NavLink
                   to="/submit-limit-order"
                   className={location.pathname === "/submit-limit-order" ? "selected" : ""}
@@ -139,7 +139,7 @@ const SideBar = () => {
                   How to Submit a Limit Order
                 </NavLink>
               </Menu.Item>
-              <Menu.Item key="m6-1-1" icon={<SvgIcon name="polygon-icon" viewbox="0 0 16.389 14.75" />}>
+              <Menu.Item key="m6-3" icon={<SvgIcon name="polygon-icon" viewbox="0 0 16.389 14.75" />}>
                 <NavLink
                   to="/cancel-limit-order"
                   className={location.pathname === "/cancel-limit-order" ? "selected" : ""}
@@ -147,7 +147,7 @@ const SideBar = () => {
                   How to Cancel a Limit Order
                 </NavLink>
               </Menu.Item>
-              <Menu.Item key="m6-1-1" icon={<SvgIcon name="polygon-icon" viewbox="0 0 16.389 14.75" />}>
+              <Menu.Item key="m6-4" icon={<SvgIcon name="polygon-icon" viewbox="0 0 16.389 14.75" />}>
                 <NavLink
                   to="/add-liquidity"
                   className={location.pathname === "/add-liquidity" ? "selected" : ""}
@@ -155,7 +155,7 @@ const SideBar = () => {
                   How to Add Liquidity
                 </NavLink>
               </Menu.Item>
-              <Menu.Item key="m6-1-1" icon={<SvgIcon name="polygon-icon" viewbox="0 0 16.389 14.75" />}>
+              <Menu.Item key="m6-5" icon={<SvgIcon name="polygon-icon" viewbox="0 0 16.389 14.75" />}>
                 <NavLink
                   to="/governance"
                   className={location.pathname === "/governance" ? "selected" : ""}
