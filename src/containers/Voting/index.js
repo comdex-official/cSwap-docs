@@ -13,8 +13,8 @@ const Voting = () => {
       <BottomNav
         preNavLink="mechanism"
         prevNavText="Mechanism"
-        nextNavLink="transaction-fees"
-        nextNavText="Transaction Fees"
+        nextNavLink="fees"
+        nextNavText="Fees"
       />
 
     </div>

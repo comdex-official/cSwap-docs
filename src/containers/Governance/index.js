@@ -2,7 +2,7 @@ import React from "react";
 import { BottomNav } from "../../components/common";
 import "./index.less";
 
-import GovernImg from 'ch'
+import GovernImg from '../../assets/images/govern.png'
 
 const Governance = () => {
   return (
@@ -10,6 +10,8 @@ const Governance = () => {
       <h2>Governance</h2>
 
       <p>Actively participate in key decision making of the protocol.</p>
+
+      <img src={GovernImg} alt="govern" />
 
       <BottomNav
         preNavLink="mechanism"

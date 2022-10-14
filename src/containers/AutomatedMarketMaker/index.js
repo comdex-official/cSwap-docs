@@ -29,8 +29,8 @@ const AutomatedMarketMaker = () => {
       <BottomNav
         preNavLink="/liquidity-pools"
         prevNavText="Liquidity Pools"
-        nextNavLink="/hybrid-dex"
-        nextNavText="Hybrid Dex"
+        nextNavLink="/liquidity-farming"
+        nextNavText="Liquidity Farming"
       />
 
     </div>

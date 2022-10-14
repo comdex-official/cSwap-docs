@@ -20,8 +20,8 @@ const HybridDex = () => {
       </p>
 
       <BottomNav
-        preNavLink="/amm"
-        prevNavText="AMM (Automated Market Maker)"
+        preNavLink="/liquidity-farming"
+        prevNavText="Liquidity Farming"
         nextNavLink="/farming-rewards"
         nextNavText="Farming Rewards"
       />

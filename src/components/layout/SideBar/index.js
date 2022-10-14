@@ -122,7 +122,7 @@ const SideBar = () => {
                 FAQs
               </NavLink>
             </Menu.Item>
-            <Menu.SubMenu key="m6" title="How to use cSwap" icon={<SvgIcon name="governance-icon" viewbox="0 0 32.076 28.288" />}>
+            <Menu.SubMenu key="m6" title="How to use cSwap" icon={<SvgIcon name="using-icon" viewbox="0 0 3.143 5.189" />}>
               <Menu.Item key="m6-1-1" icon={<SvgIcon name="polygon-icon" viewbox="0 0 16.389 14.75" />}>
                 <NavLink
                   to="/trade-swap"

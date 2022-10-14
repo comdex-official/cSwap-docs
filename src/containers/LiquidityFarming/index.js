@@ -29,8 +29,8 @@ const LiquidityFarming = () => {
       <BottomNav
         preNavLink="/amm"
         prevNavText="AMM (Automated Market Maker)"
-        nextNavLink="/farming-rewards"
-        nextNavText="Farming Rewards"
+        nextNavLink="/hybrid-dex"
+        nextNavText="Hybrid Dex"
       />
 
     </div>
