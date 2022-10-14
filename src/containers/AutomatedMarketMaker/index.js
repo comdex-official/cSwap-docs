@@ -8,6 +8,9 @@ const AutomatedMarketMaker = () => {
     <div>
       <h2>AMM (Automated Market Maker)</h2>
       <p>
+        The liquidity pool of a pair of assets acts as an AMM, which then makes the orders in the orderbook of the assets match automatically through the CPM (Constant Product Model)
+      </p>
+      <p>
         AMMs enable automated market-making through the use of the <Link to={{ pathname: "https://medium.com/bollinger-investment-group/constant-function-market-makers-defis-zero-to-one-innovation-968f77022159"}} traget="_blank">CPM (Constant Product Model)</Link>, operating on the formula below:
       </p>
 

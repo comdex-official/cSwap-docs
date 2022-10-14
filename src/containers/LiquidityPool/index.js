@@ -25,7 +25,7 @@ const LiquidityPool = () => {
 
       <h3>b{")"} Master Pool</h3>
       <p>
-        Master pool is a unique concept created by the team which is entirely new in the ecosystem. Initially, this liquidity pool will be for the CMST-CMDX pair. This master pool will be used in the reward distribution system as this pool will consist of internal and external incentives. Now, let us head to the next section to understand how the rewards distribution system will work.
+        <i>Master pool</i> is a unique concept created by the team which is entirely new in the ecosystem. Initially, this liquidity pool will be for the ATOM-CMDX pair. This master pool will be used in the reward distribution system as this pool will consist of internal and external incentives.
       </p>
 
       <p>

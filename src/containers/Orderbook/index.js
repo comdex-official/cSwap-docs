@@ -20,7 +20,7 @@ const Orderbook = () => {
         Order books add value for traders by giving them more control over price via limit orders. AMMs confer advantages concerning composability, capital efficiency, speed, and ease of use for traders and liquidity providers. They enable active market-making strategies and liquidity concentration for liquidity providers.
       </p>
       <p>
-        cSwap combines both, allowing users to swap tokens with limit orders and avoid slippage, which reduces volatility and enhances price matching.
+        cSwap combines both, allowing users to swap tokens with limit orders and reduce slippage, which reduces volatility and enhances price matching.
       </p>
 
       <BottomNav

@@ -57,6 +57,14 @@ const SideBar = () => {
               </Menu.Item>
               <Menu.Item key="m2-5" icon={<SvgIcon name="polygon-icon" viewbox="0 0 16.389 14.75" />}>
                 <NavLink
+                  to="/liquidity-farming"
+                  className={location.pathname === "/liquidity-farming" ? "selected" : ""}
+                >
+                  Liquidity Farming
+                </NavLink>
+              </Menu.Item>
+              <Menu.Item key="m2-5" icon={<SvgIcon name="polygon-icon" viewbox="0 0 16.389 14.75" />}>
+                <NavLink
                   to="/hybrid-dex"
                   className={location.pathname === "/hybrid-dex" ? "selected" : ""}
                 >
@@ -98,40 +106,14 @@ const SideBar = () => {
                 </NavLink>
               </Menu.Item>
             </Menu.SubMenu>
-            <Menu.SubMenu key="m4" title="Fees" icon={<SvgIcon name="riskframework-icon" viewbox="0 0 30 28.451" />}>
-              <Menu.Item key="m4-1" icon={<SvgIcon name="polygon-icon" viewbox="0 0 16.389 14.75" />}>
-                <NavLink
-                  to="/transaction-fees"
-                  className={location.pathname === "/transaction-fees" ? "selected" : ""}
-                >
-                  Transaction fees
-                </NavLink>
-              </Menu.Item>
-              <Menu.Item key="m4-2" icon={<SvgIcon name="polygon-icon" viewbox="0 0 16.389 14.75" />}>
-                <NavLink
-                  to="/swap-fees"
-                  className={location.pathname === "/swap-fees" ? "selected" : ""}
-                >
-                  Swap fees
-                </NavLink>
-              </Menu.Item>
-              <Menu.Item key="m4-4" icon={<SvgIcon name="polygon-icon" viewbox="0 0 16.389 14.75" />}>
-                <NavLink
-                  to="/liquiditypool-creation-fee"
-                  className={location.pathname === "/liquiditypool-creation-fee" ? "selected" : ""}
-                >
-                  Liquidity Pool Creation Fee
-                </NavLink>
-              </Menu.Item>
-              <Menu.Item key="m4-5" icon={<SvgIcon name="polygon-icon" viewbox="0 0 16.389 14.75" />}>
-                <NavLink
-                  to="/withdrawal-fees"
-                  className={location.pathname === "/withdrawal-fees" ? "selected" : ""}
-                >
-                  Withdrawal Fees
-                </NavLink>
-              </Menu.Item>
-            </Menu.SubMenu>
+            <Menu.Item key="m4" icon={<SvgIcon name="riskframework-icon" viewbox="0 0 30 28.451" />}>
+              <NavLink
+                to="/fees"
+                className={location.pathname === "/fees" ? "selected" : ""}
+              >
+                Fees
+              </NavLink>
+            </Menu.Item>
             <Menu.Item key="m5" icon={<SvgIcon name="faq-icon" viewbox="0 0 33.846 33.846" />}>
               <NavLink
                 to="/faq"
