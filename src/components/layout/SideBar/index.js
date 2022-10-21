@@ -57,13 +57,21 @@ const SideBar = () => {
               </Menu.Item>
               <Menu.Item key="m2-5" icon={<SvgIcon name="polygon-icon" viewbox="0 0 16.389 14.75" />}>
                 <NavLink
+                  to="/liquidity-farming"
+                  className={location.pathname === "/liquidity-farming" ? "selected" : ""}
+                >
+                  Liquidity Farming
+                </NavLink>
+              </Menu.Item>
+              <Menu.Item key="m2-6" icon={<SvgIcon name="polygon-icon" viewbox="0 0 16.389 14.75" />}>
+                <NavLink
                   to="/hybrid-dex"
                   className={location.pathname === "/hybrid-dex" ? "selected" : ""}
                 >
                   Hybrid Dex
                 </NavLink>
               </Menu.Item>
-              <Menu.Item key="m2-6" icon={<SvgIcon name="polygon-icon" viewbox="0 0 16.389 14.75" />}>
+              <Menu.Item key="m2-7" icon={<SvgIcon name="polygon-icon" viewbox="0 0 16.389 14.75" />}>
                 <NavLink
                   to="/farming-rewards"
                   className={location.pathname === "/farming-rewards" ? "selected" : ""}
@@ -71,7 +79,7 @@ const SideBar = () => {
                   Farming Rewards
                 </NavLink>
               </Menu.Item>
-              <Menu.Item key="m2-7" icon={<SvgIcon name="polygon-icon" viewbox="0 0 16.389 14.75" />}>
+              <Menu.Item key="m2-8" icon={<SvgIcon name="polygon-icon" viewbox="0 0 16.389 14.75" />}>
                 <NavLink
                   to="/impermanent-loss"
                   className={location.pathname === "/impermanent-loss" ? "selected" : ""}
@@ -79,7 +87,7 @@ const SideBar = () => {
                   Impermanent Loss
                 </NavLink>
               </Menu.Item>
-              <Menu.Item key="m2-8" icon={<SvgIcon name="polygon-icon" viewbox="0 0 16.389 14.75" />}>
+              <Menu.Item key="m2-9" icon={<SvgIcon name="polygon-icon" viewbox="0 0 16.389 14.75" />}>
                 <NavLink
                   to="/mechanism"
                   className={location.pathname === "/mechanism" ? "selected" : ""}
@@ -98,40 +106,14 @@ const SideBar = () => {
                 </NavLink>
               </Menu.Item>
             </Menu.SubMenu>
-            <Menu.SubMenu key="m4" title="Fees" icon={<SvgIcon name="riskframework-icon" viewbox="0 0 30 28.451" />}>
-              <Menu.Item key="m4-1" icon={<SvgIcon name="polygon-icon" viewbox="0 0 16.389 14.75" />}>
-                <NavLink
-                  to="/transaction-fees"
-                  className={location.pathname === "/transaction-fees" ? "selected" : ""}
-                >
-                  Transaction fees
-                </NavLink>
-              </Menu.Item>
-              <Menu.Item key="m4-2" icon={<SvgIcon name="polygon-icon" viewbox="0 0 16.389 14.75" />}>
-                <NavLink
-                  to="/swap-fees"
-                  className={location.pathname === "/swap-fees" ? "selected" : ""}
-                >
-                  Swap fees
-                </NavLink>
-              </Menu.Item>
-              <Menu.Item key="m4-4" icon={<SvgIcon name="polygon-icon" viewbox="0 0 16.389 14.75" />}>
-                <NavLink
-                  to="/liquiditypool-creation-fee"
-                  className={location.pathname === "/liquiditypool-creation-fee" ? "selected" : ""}
-                >
-                  Liquidity Pool Creation Fee
-                </NavLink>
-              </Menu.Item>
-              <Menu.Item key="m4-5" icon={<SvgIcon name="polygon-icon" viewbox="0 0 16.389 14.75" />}>
-                <NavLink
-                  to="/withdrawal-fees"
-                  className={location.pathname === "/withdrawal-fees" ? "selected" : ""}
-                >
-                  Withdrawal Fees
-                </NavLink>
-              </Menu.Item>
-            </Menu.SubMenu>
+            <Menu.Item key="m4" icon={<SvgIcon name="riskframework-icon" viewbox="0 0 30 28.451" />}>
+              <NavLink
+                to="/fees"
+                className={location.pathname === "/fees" ? "selected" : ""}
+              >
+                Fees
+              </NavLink>
+            </Menu.Item>
             <Menu.Item key="m5" icon={<SvgIcon name="faq-icon" viewbox="0 0 33.846 33.846" />}>
               <NavLink
                 to="/faq"
@@ -140,6 +122,48 @@ const SideBar = () => {
                 FAQs
               </NavLink>
             </Menu.Item>
+            <Menu.SubMenu key="m6" title="How to use cSwap" icon={<SvgIcon name="using-icon" viewbox="0 0 3.143 5.189" />}>
+              <Menu.Item key="m6-1" icon={<SvgIcon name="polygon-icon" viewbox="0 0 16.389 14.75" />}>
+                <NavLink
+                  to="/trade-swap"
+                  className={location.pathname === "/trade-swap" ? "selected" : ""}
+                >
+                  Steps to trade/swap
+                </NavLink>
+              </Menu.Item>
+              <Menu.Item key="m6-2" icon={<SvgIcon name="polygon-icon" viewbox="0 0 16.389 14.75" />}>
+                <NavLink
+                  to="/submit-limit-order"
+                  className={location.pathname === "/submit-limit-order" ? "selected" : ""}
+                >
+                  How to Submit a Limit Order
+                </NavLink>
+              </Menu.Item>
+              <Menu.Item key="m6-3" icon={<SvgIcon name="polygon-icon" viewbox="0 0 16.389 14.75" />}>
+                <NavLink
+                  to="/cancel-limit-order"
+                  className={location.pathname === "/cancel-limit-order" ? "selected" : ""}
+                >
+                  How to Cancel a Limit Order
+                </NavLink>
+              </Menu.Item>
+              <Menu.Item key="m6-4" icon={<SvgIcon name="polygon-icon" viewbox="0 0 16.389 14.75" />}>
+                <NavLink
+                  to="/add-liquidity"
+                  className={location.pathname === "/add-liquidity" ? "selected" : ""}
+                >
+                  How to Add Liquidity
+                </NavLink>
+              </Menu.Item>
+              <Menu.Item key="m6-5" icon={<SvgIcon name="polygon-icon" viewbox="0 0 16.389 14.75" />}>
+                <NavLink
+                  to="/governance"
+                  className={location.pathname === "/governance" ? "selected" : ""}
+                >
+                  Governance
+                </NavLink>
+              </Menu.Item>
+            </Menu.SubMenu>
           </Menu>
           <div className="social-footer">
             <Link to={{ pathname: "https://twitter.com/cSwap_Finance" }} target="_blank">
