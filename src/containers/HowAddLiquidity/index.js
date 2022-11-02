@@ -50,10 +50,10 @@ const HowAddLiquidity = () => {
       </ol>
 
       <BottomNav
-        preNavLink="mechanism"
-        prevNavText="Mechanism"
-        nextNavLink="transaction-fees"
-        nextNavText="Transaction Fees"
+        preNavLink="cancel-limit-order"
+        prevNavText="How to Cancel a Limit Order"
+        nextNavLink="governance"
+        nextNavText="Governance"
       />
 
     </div>
