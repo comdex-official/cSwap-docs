@@ -14,10 +14,8 @@ const Governance = () => {
       <img src={GovernImg} alt="govern" />
 
       <BottomNav
-        preNavLink="mechanism"
-        prevNavText="Mechanism"
-        nextNavLink="transaction-fees"
-        nextNavText="Transaction Fees"
+        preNavLink="add-liquidity"
+        prevNavText="How to Add Liquidity"
       />
 
     </div>

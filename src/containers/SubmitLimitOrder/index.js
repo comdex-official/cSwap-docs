@@ -50,10 +50,10 @@ const SubmitLimitOrder = () => {
       </ol>
 
       <BottomNav
-        preNavLink="mechanism"
-        prevNavText="Mechanism"
-        nextNavLink="transaction-fees"
-        nextNavText="Transaction Fees"
+        preNavLink="trade-swap"
+        prevNavText="Using cSwap"
+        nextNavLink="cancel-limit-order"
+        nextNavText="How to Cancel a Limit Order"
       />
 
     </div>

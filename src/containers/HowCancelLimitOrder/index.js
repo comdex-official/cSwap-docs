@@ -18,10 +18,10 @@ const HowCancelLimitOrder = () => {
       </ol>
 
       <BottomNav
-        preNavLink="mechanism"
-        prevNavText="Mechanism"
-        nextNavLink="transaction-fees"
-        nextNavText="Transaction Fees"
+        preNavLink="submit-limit-order"
+        prevNavText="How to Submit a Limit Order"
+        nextNavLink="add-liquidity"
+        nextNavText="How to Add Liquidity"
       />
 
     </div>
