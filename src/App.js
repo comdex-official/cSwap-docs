@@ -32,6 +32,7 @@ import SubmitLimitOrder from "./containers/SubmitLimitOrder";
 import HowCancelLimitOrder from "./containers/HowCancelLimitOrder";
 import HowAddLiquidity from "./containers/HowAddLiquidity";
 import Governance from "./containers/Governance";
+import DeveloperDocs from "./containers/DeveloperDocs";
 
 const { Header, Content, Sider, Footer } = Layout;
 
@@ -104,6 +105,7 @@ const App = () => {
 									<Route exact path="/add-liquidity" component={HowAddLiquidity} />
 									<Route exact path="/governance" component={Governance} />
 									<Route path="/faq" component={Faq} />
+									<Route path="/developer-docs" component={DeveloperDocs} />
 								</Switch>
 								<Footer className="main-footer">
 									© 2021 cSwap All rights reserved.

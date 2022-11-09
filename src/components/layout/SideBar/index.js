@@ -164,6 +164,14 @@ const SideBar = () => {
                 </NavLink>
               </Menu.Item>
             </Menu.SubMenu>
+            <Menu.Item key="m7" icon={<SvgIcon name="contracts-icon" viewbox="0 0 28.5 24.429" />}>
+              <NavLink
+                to="/developer-docs"
+                className={location.pathname === "/developer-docs" ? "selected" : ""}
+              >
+                Developer docs
+              </NavLink>
+            </Menu.Item>
           </Menu>
           <div className="social-footer">
             <Link to={{ pathname: "https://twitter.com/cSwap_Finance" }} target="_blank">

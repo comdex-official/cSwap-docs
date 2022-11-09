@@ -16,6 +16,8 @@ const Governance = () => {
       <BottomNav
         preNavLink="add-liquidity"
         prevNavText="How to Add Liquidity"
+        nextNavLink="developer-docs"
+        nextNavText="Developer Docs"
       />
 
     </div>
