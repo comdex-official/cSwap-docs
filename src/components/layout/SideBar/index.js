@@ -174,10 +174,10 @@ const SideBar = () => {
             </Menu.Item>
           </Menu>
           <div className="social-footer">
-            <Link to={{ pathname: "https://twitter.com/cSwap_Finance" }} target="_blank">
+            <Link to={{ pathname: "https://twitter.com/cSwap_DEX" }} target="_blank">
               <SvgIcon name="twitter" viewbox="0 0 25.617 20.825" />
             </Link>
-            <Link to={{ pathname: "https://t.me/cSwap_finance" }} target="_blank">
+            <Link to={{ pathname: "https://t.me/cSwap_DEX" }} target="_blank">
               <SvgIcon name="telegram" viewbox="0 0 24.635 20.66" />
             </Link>
             <Link to={{ pathname: "/" }}>

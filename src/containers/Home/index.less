@@ -12,12 +12,18 @@
         padding: 20px !important;
         cursor: pointer;
         transition: all ease-in 0.1s;
+        @media screen and (max-width:1400px) {
+            padding: 15px !important;
+        }
         &:hover{
             transform: scale(1.05);
         }
         .ant-list-item-meta-title{
             font-size: 18px;
             font-weight: 500;
+            @media screen and (max-width:1400px) {
+                font-size: 16px;
+            }
         }
         .ant-list-item-meta-avatar{
             .icon{
