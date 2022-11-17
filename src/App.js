@@ -108,7 +108,7 @@ const App = () => {
 									<Route path="/developer-docs" component={DeveloperDocs} />
 								</Switch>
 								<Footer className="main-footer">
-									© 2021 cSwap All rights reserved.
+									© 2022 cSwap All rights reserved.
 								</Footer>
 							</Content>
 						</>

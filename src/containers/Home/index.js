@@ -4,6 +4,8 @@ import { useHistory, Link } from 'react-router-dom';
 import "./index.less";
 import { SvgIcon } from "../../components/common";
 
+const MAX_LENGTH = 60;
+
 const data = [
   {
     icon: <SvgIcon name='intro-icon' viewbox='0 0 33.007 36.341' /> ,
@@ -19,9 +21,9 @@ const data = [
   },
   {
     icon: <SvgIcon name='faq-icon' viewbox='0 0 30 28.451' /> ,
-    title: 'FAQs',
-    description: 'cSwap aspires to be among the top money markets.',
-    url: '/faq',
+    title: 'How to use cSwap',
+    description: 'cSwap uses AMM liquidity pools which bring cross-chain markets',
+    url: '/trade-swap',
   },
   {
     icon: <SvgIcon name='voting' viewbox='0 0 30 22.222' /> ,
@@ -55,17 +57,17 @@ const Home = () => {
               <List.Item.Meta
                 avatar={item.icon}
                 title={item.title}
-                description={item.description}
+                description={`${item.description.substring(0, MAX_LENGTH)}...`}
               />
             </List.Item>
           )}
         />
         <div className="bottom-cards">
-          <Link to={{ pathname: "https://twitter.com/cSwap_Finance" }} target="_blank">
+          <Link to={{ pathname: "/" }}>
             <div className="card-items">
               <div className="arrow-link"><SvgIcon name='arrow-topright' viewbox='0 0 22.056 22.504' /></div>
               <SvgIcon name='swap-icon' viewbox='0 0 38.048 41' />
-              <h4>cSwap app</h4>
+              <h4>Take me to cSwap</h4>
               <p>link to redirect <br /> traffic to app</p>
             </div>
           </Link>
