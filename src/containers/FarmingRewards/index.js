@@ -55,13 +55,13 @@ const FarmingRewards = () => {
         <b>Case - 1: User deposits $1000 worth of assets only in the master pool.</b>
       </p>
       <p>When a user deposits $1000 worth of assets in just the master pool, they are eligible for only the Rewards2, i.e., 120% APR.</p>
-      <p><i>Reward</i> = $1000  120%  <i>APR</i></p>
+      <p><i>Reward</i> = $1000 * 120%  <i>APR</i></p>
 
       <p><b>Case - 2: User deposits $1000 worth of assets each into the master pool and a child pool.</b></p>
 
       <p>
         Since the user has deposited an equal amount in both the master pool as well as the child pool; the user is eligible to receive rewards both pools - Reward1, Reward2, & Reward3  <br />
-        <i>Reward = [($1000  80%  APR) + ($1000  120% APR) + ($1000  250% APR)]</i>
+        <i>Reward = [($1000 * 80%  APR) + ($1000 * 120% APR) + ($1000 * 250% APR)]</i>
       </p>
 
       <p>
@@ -76,13 +76,26 @@ const FarmingRewards = () => {
         Reward3 - 500$
       </p>
 
-      <p><i>Reward = [($500  80%  APR) +($500  120%  APR) + ($1000  250% APR)]</i></p>
+      <p><i>Reward = [($500 * 80%  APR) +($500 * 120%  APR) + ($1000 * 250% APR)]</i></p>
+
+      <p>
+        <b>Case - 4: User deposits $500 worth of assets into the master pool and $1000 worth of assets in a child pool.</b>
+      </p>
+      <p>
+        In this case, the user has deposited a higher amount in child pools than in the master pool.  The user will be entitled to receive the rewards as mentioned below -
+      </p>
+      <p>
+        Reward1 - min-liquidity(masterpool, childpool) - min-liquidity(500$, 1000$)
+        Reward2 - 500$
+        Reward3 - 1000$
+      </p>
+      <p><i>Reward = [($500 * 80%  APR) +($500 * 120%  APR) + ($1000 * 250% APR)]</i></p>
 
       <p><b>Case - 5: User deposits $1000 worth of assets in the child pools only.</b></p>
 
       <p>In this case, the user will not be entitled to receive any rewards available on the master pool i.e Reward1 and Reward2. But, is eligible for the Reward3</p>
 
-      <p><i>Reward = ($1000  250%  APR)</i></p>
+      <p><i>Reward = ($1000 * 250%  APR)</i></p>
 
       <h3>b) Farming Status: Queued and Staked</h3>
 
