@@ -14,7 +14,7 @@ const Fees = () => {
       
       <h3>Swap Fees</h3>
       <p>
-        A swap of 0.3% is deducted from the swap transaction and given to liquidity providers as reward.
+        A swap of 0.3% is deducted from the swap transaction and given to liquidity farmers as reward.
       </p>
 
       <h3>Liquidity Pool Creation fee</h3>
