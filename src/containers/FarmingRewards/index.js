@@ -76,7 +76,7 @@ const FarmingRewards = () => {
         Reward3 - 500$
       </p>
 
-      <p><i>Reward = [($500 * 80%  APR) +($500 * 120%  APR) + ($1000 * 250% APR)]</i></p>
+      <p><i>Reward = [($500 * 80%  APR) +($1000 * 120%  APR) + ($500 * 250% APR)]</i></p>
 
       <p>
         <b>Case - 4: User deposits $500 worth of assets into the master pool and $1000 worth of assets in a child pool.</b>
@@ -85,8 +85,8 @@ const FarmingRewards = () => {
         In this case, the user has deposited a higher amount in child pools than in the master pool.  The user will be entitled to receive the rewards as mentioned below -
       </p>
       <p>
-        Reward1 - min-liquidity(masterpool, childpool) - min-liquidity(500$, 1000$)
-        Reward2 - 500$
+        Reward1 - min-liquidity(masterpool, childpool) - min-liquidity(500$, 1000$) <br />
+        Reward2 - 500$ <br />
         Reward3 - 1000$
       </p>
       <p><i>Reward = [($500 * 80%  APR) +($500 * 120%  APR) + ($1000 * 250% APR)]</i></p>
