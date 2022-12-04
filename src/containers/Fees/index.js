@@ -23,8 +23,8 @@ const Fees = () => {
       </p>
 
       <BottomNav
-        preNavLink="governance"
-        prevNavText="Governance"
+        preNavLink="voting"
+        prevNavText="Voting"
         nextNavLink="trade-swap"
         nextNavText="Using cSwap"
       />

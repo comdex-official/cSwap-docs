@@ -42,8 +42,8 @@ const TradeSwap = () => {
       <img className="max-width-480" src={TradeSwapImg5} alt="trade/swap" />
 
       <BottomNav
-        preNavLink="faq"
-        prevNavText="FAQs"
+        preNavLink="fees"
+        prevNavText="Fees"
         nextNavLink="submit-limit-order"
         nextNavText="How to Submit a Limit Order"
       />

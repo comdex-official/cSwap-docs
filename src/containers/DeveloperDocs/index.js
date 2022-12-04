@@ -551,6 +551,8 @@ message QueuedFarmer{
       <BottomNav
         preNavLink="governance"
         prevNavText="Governance"
+        nextNavLink="faq"
+        nextNavText="FAQs"
       />
 
     </div>

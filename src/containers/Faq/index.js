@@ -50,10 +50,8 @@ const Faq = () => {
       <p className="pl-3">If the pool for which you want to provide liquidity does not already exist, you can create it under the farm section by clicking "Create pool." Simply provide the tokens and add the parameters for the pool. You, as the first liquidity provider, determine the initial exchange ratio (price).</p>
 
       <BottomNav
-        preNavLink="fees"
-        prevNavText="Fees"
-        nextNavLink="trade-swap"
-        nextNavText="How to use cSwap"
+        preNavLink="developer-docs"
+        prevNavText="Developer Docs"
       />
 
     </div>

@@ -2,20 +2,22 @@ import React from "react";
 import { BottomNav } from "../../components/common";
 import "./index.less";
 
+import GovernImg from '../../assets/images/govern.png'
+
 const Governance = () => {
   return (
     <div>
-      <h2>Voting</h2>
-
+      <h2>Governance</h2>
       <p>
-        CMDX will be the governance token for the cSwap dex. Stakers of CMDX will be eligible for voting on the various on-chain proposals. CMDX stakers can vote on various proposals such as dex upgrades, setting various fees and parameters, and incentivization strategies for various liquidity pools.
+        Actively participate in key decision making of the protocol.
       </p>
+      <img src={GovernImg} alt="govern" />
 
       <BottomNav
-        preNavLink="mechanism"
-        prevNavText="Mechanism"
-        nextNavLink="fees"
-        nextNavText="Fees"
+        preNavLink="add-liquidity"
+        prevNavText="How to Add Liquidity"
+        nextNavLink="developer-docs"
+        nextNavText="Developer Docs"
       />
 
     </div>
