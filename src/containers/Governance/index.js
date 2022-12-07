@@ -8,9 +8,9 @@ const Governance = () => {
   return (
     <div>
       <h2>Governance</h2>
-
-      <p>Actively participate in key decision making of the protocol.</p>
-
+      <p>
+        Actively participate in key decision making of the protocol.
+      </p>
       <img src={GovernImg} alt="govern" />
 
       <BottomNav

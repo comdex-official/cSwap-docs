@@ -57,18 +57,18 @@ const SideBar = () => {
               </Menu.Item>
               <Menu.Item key="m2-5" icon={<SvgIcon name="polygon-icon" viewbox="0 0 16.389 14.75" />}>
                 <NavLink
-                  to="/liquidity-farming"
-                  className={location.pathname === "/liquidity-farming" ? "selected" : ""}
-                >
-                  Liquidity Farming
-                </NavLink>
-              </Menu.Item>
-              <Menu.Item key="m2-6" icon={<SvgIcon name="polygon-icon" viewbox="0 0 16.389 14.75" />}>
-                <NavLink
                   to="/hybrid-dex"
                   className={location.pathname === "/hybrid-dex" ? "selected" : ""}
                 >
                   Hybrid Dex
+                </NavLink>
+              </Menu.Item>
+              <Menu.Item key="m2-6" icon={<SvgIcon name="polygon-icon" viewbox="0 0 16.389 14.75" />}>
+                <NavLink
+                  to="/liquidity-farming"
+                  className={location.pathname === "/liquidity-farming" ? "selected" : ""}
+                >
+                  Liquidity Farming
                 </NavLink>
               </Menu.Item>
               <Menu.Item key="m2-7" icon={<SvgIcon name="polygon-icon" viewbox="0 0 16.389 14.75" />}>
@@ -96,16 +96,14 @@ const SideBar = () => {
                 </NavLink>
               </Menu.Item>
             </Menu.SubMenu>
-            <Menu.SubMenu key="m3" title="Governance" icon={<SvgIcon name="governance-icon" viewbox="0 0 32.076 28.288" />}>
-              <Menu.Item key="m3-1-1" icon={<SvgIcon name="voting" viewbox="0 0 30 22.222" />}>
-                <NavLink
-                  to="/voting"
-                  className={location.pathname === "/voting" ? "selected" : ""}
-                >
-                  Voting
-                </NavLink>
-              </Menu.Item>
-            </Menu.SubMenu>
+            <Menu.Item key="m3" icon={<SvgIcon name="governance-icon" viewbox="0 0 32.076 28.288" />}>
+              <NavLink
+                to="/voting"
+                className={location.pathname === "/voting" ? "selected" : ""}
+              >
+                Governance
+              </NavLink>
+            </Menu.Item>
             <Menu.Item key="m4" icon={<SvgIcon name="riskframework-icon" viewbox="0 0 30 28.451" />}>
               <NavLink
                 to="/fees"
@@ -114,16 +112,8 @@ const SideBar = () => {
                 Fees
               </NavLink>
             </Menu.Item>
-            <Menu.Item key="m5" icon={<SvgIcon name="faq-icon" viewbox="0 0 33.846 33.846" />}>
-              <NavLink
-                to="/faq"
-                className={location.pathname === "/faq" ? "selected" : ""}
-              >
-                FAQs
-              </NavLink>
-            </Menu.Item>
-            <Menu.SubMenu key="m6" title="How to use cSwap" icon={<SvgIcon name="using-icon" viewbox="0 0 3.143 5.189" />}>
-              <Menu.Item key="m6-1" icon={<SvgIcon name="polygon-icon" viewbox="0 0 16.389 14.75" />}>
+            <Menu.SubMenu key="m5" title="How to use cSwap" icon={<SvgIcon name="using-icon" viewbox="0 0 3.143 5.189" />}>
+              <Menu.Item key="m5-1" icon={<SvgIcon name="polygon-icon" viewbox="0 0 16.389 14.75" />}>
                 <NavLink
                   to="/trade-swap"
                   className={location.pathname === "/trade-swap" ? "selected" : ""}
@@ -131,7 +121,7 @@ const SideBar = () => {
                   Steps to trade/swap
                 </NavLink>
               </Menu.Item>
-              <Menu.Item key="m6-2" icon={<SvgIcon name="polygon-icon" viewbox="0 0 16.389 14.75" />}>
+              <Menu.Item key="m5-2" icon={<SvgIcon name="polygon-icon" viewbox="0 0 16.389 14.75" />}>
                 <NavLink
                   to="/submit-limit-order"
                   className={location.pathname === "/submit-limit-order" ? "selected" : ""}
@@ -139,7 +129,7 @@ const SideBar = () => {
                   How to Submit a Limit Order
                 </NavLink>
               </Menu.Item>
-              <Menu.Item key="m6-3" icon={<SvgIcon name="polygon-icon" viewbox="0 0 16.389 14.75" />}>
+              <Menu.Item key="m5-3" icon={<SvgIcon name="polygon-icon" viewbox="0 0 16.389 14.75" />}>
                 <NavLink
                   to="/cancel-limit-order"
                   className={location.pathname === "/cancel-limit-order" ? "selected" : ""}
@@ -147,7 +137,7 @@ const SideBar = () => {
                   How to Cancel a Limit Order
                 </NavLink>
               </Menu.Item>
-              <Menu.Item key="m6-4" icon={<SvgIcon name="polygon-icon" viewbox="0 0 16.389 14.75" />}>
+              <Menu.Item key="m5-4" icon={<SvgIcon name="polygon-icon" viewbox="0 0 16.389 14.75" />}>
                 <NavLink
                   to="/add-liquidity"
                   className={location.pathname === "/add-liquidity" ? "selected" : ""}
@@ -155,7 +145,7 @@ const SideBar = () => {
                   How to Add Liquidity
                 </NavLink>
               </Menu.Item>
-              <Menu.Item key="m6-5" icon={<SvgIcon name="polygon-icon" viewbox="0 0 16.389 14.75" />}>
+              <Menu.Item key="m5-5" icon={<SvgIcon name="polygon-icon" viewbox="0 0 16.389 14.75" />}>
                 <NavLink
                   to="/governance"
                   className={location.pathname === "/governance" ? "selected" : ""}
@@ -164,12 +154,20 @@ const SideBar = () => {
                 </NavLink>
               </Menu.Item>
             </Menu.SubMenu>
-            <Menu.Item key="m7" icon={<SvgIcon name="contracts-icon" viewbox="0 0 28.5 24.429" />}>
+            <Menu.Item key="m6" icon={<SvgIcon name="contracts-icon" viewbox="0 0 28.5 24.429" />}>
               <NavLink
                 to="/developer-docs"
                 className={location.pathname === "/developer-docs" ? "selected" : ""}
               >
                 Developer docs
+              </NavLink>
+            </Menu.Item>
+            <Menu.Item key="m7" icon={<SvgIcon name="faq-icon" viewbox="0 0 33.846 33.846" />}>
+              <NavLink
+                to="/faq"
+                className={location.pathname === "/faq" ? "selected" : ""}
+              >
+                FAQs
               </NavLink>
             </Menu.Item>
           </Menu>

@@ -14,7 +14,7 @@ const FarmingRewards = () => {
       </p>
 
       <p>
-        The incentives are directly proportional to the liquidity provided in the master pool. <br />
+        The incentives are directly proportional to the liquidity provided in the master pool.<br />
         For example: Let’s say the incentive token is $CMDX, so a user must provide liquidity in the $ATOM/$CMDX pool which is the master pool to maximize their rewards on other protocol-wide pools. 
       </p>
 
