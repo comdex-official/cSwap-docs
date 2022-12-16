@@ -124,8 +124,8 @@ const FarmingRewards = () => {
       </p>
 
       <BottomNav
-        preNavLink="/hybrid-dex"
-        prevNavText="Hybrid Dex"
+        preNavLink="/liquidity-farming"
+        prevNavText="Liquidity Farming"
         nextNavLink="/impermanent-loss"
         nextNavText="Impermanent Loss"
       />

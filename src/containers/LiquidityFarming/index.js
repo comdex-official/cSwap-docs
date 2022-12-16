@@ -27,10 +27,10 @@ const LiquidityFarming = () => {
       <img src={LiquidityFarming1} alt="Incentive Matrix for cSwap" />
 
       <BottomNav
-        preNavLink="/amm"
-        prevNavText="AMM (Automated Market Maker)"
-        nextNavLink="/hybrid-dex"
-        nextNavText="Hybrid Dex"
+        preNavLink="/hybrid-dex"
+        prevNavText="Hybrid Dex"
+        nextNavLink="/farming-rewards"
+        nextNavText="Farming Rewards"
       />
 
     </div>
