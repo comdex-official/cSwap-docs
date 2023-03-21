@@ -19,8 +19,8 @@ const Mechanism = () => {
       <BottomNav
         preNavLink="/impermanent-loss"
         prevNavText="Impermanent Loss"
-        nextNavLink="/voting"
-        nextNavText="Voting"
+        nextNavLink="/ranged-pools"
+        nextNavText="Ranged Pools"
       />
 
     </div>
