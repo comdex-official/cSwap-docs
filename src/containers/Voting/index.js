@@ -11,8 +11,8 @@ const Voting = () => {
       </p>
 
       <BottomNav
-        preNavLink="mechanism"
-        prevNavText="Mechanism"
+        preNavLink="ranged-pools"
+        prevNavText="Ranged Pools"
         nextNavLink="fees"
         nextNavText="Fees"
       />

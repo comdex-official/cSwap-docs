@@ -33,6 +33,7 @@ import HowCancelLimitOrder from "./containers/HowCancelLimitOrder";
 import HowAddLiquidity from "./containers/HowAddLiquidity";
 import Governance from "./containers/Governance";
 import DeveloperDocs from "./containers/DeveloperDocs";
+import RangedPools from "./containers/RangedPools";
 
 const { Header, Content, Sider, Footer } = Layout;
 
@@ -106,6 +107,7 @@ const App = () => {
 									<Route exact path="/governance" component={Governance} />
 									<Route path="/faq" component={Faq} />
 									<Route path="/developer-docs" component={DeveloperDocs} />
+									<Route path="/ranged-pools" component={RangedPools} />
 								</Switch>
 								<Footer className="main-footer">
 									© 2022 cSwap All rights reserved.

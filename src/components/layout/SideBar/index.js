@@ -95,6 +95,14 @@ const SideBar = () => {
                   Mechanism
                 </NavLink>
               </Menu.Item>
+              <Menu.Item key="m2-10" icon={<SvgIcon name="polygon-icon" viewbox="0 0 16.389 14.75" />}>
+                <NavLink
+                  to="/ranged-pools"
+                  className={location.pathname === "/ranged-pools" ? "selected" : ""}
+                >
+                  Ranged Pools
+                </NavLink>
+              </Menu.Item>
             </Menu.SubMenu>
             <Menu.Item key="m3" icon={<SvgIcon name="governance-icon" viewbox="0 0 32.076 28.288" />}>
               <NavLink
